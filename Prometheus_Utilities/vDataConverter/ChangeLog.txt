@@ -1,0 +1,78 @@
+vData to REED converter.
+
+For Project Status, see Status.txt
+-----------------
+
+- Rev 25-
+[2005/12/21] Tsusai - License added to GUI
+-
+
+- Rev 24-
+[2005/12/21] Tsusai - License added, directory cleaned up.
+-
+
+[2005/12/12][Rev 23] Tsusai - Put in code to ignore the FileCtrl unit warning. Unit usage checked and fixed.
+
+[2005/10/10][Rev 19] Tsusai 
+ -REEDGuildSave - No longer modded for prometheus's positioning issues.  
+
+[2005/09/03][Rev 18] Tsusai - Error again with ActiveChars.txt
+ -VidarSearch
+  -VidarCharacterSearch- Was recieving a copy of ActiveChars, not the original to edit (i.e. missing 'var' in procedure header)
+
+[2005/09/03][Rev 17] Tsusai - Error catching with some bad vData, and no characters bug
+ -Main- Moved the TActive type here from REEDCharaSave
+ -REEDAccSave- Now calls the ActiveChars.txt output itself solving the no characters not writing it error
+ -REEDCharaSave
+  -REEDCharacterSaveBase- Checks for the right amount of comma fields
+ -REEDGuildSave
+  -REEDGuildSaveMembers- turned into a function to return how many actual members so we can check for an empty guild.
+  -REEDGuildSaveRoot- If REEDGuildSaveMembers returns 0, it'll error out what guild was empty, and cleanup files.
+ -VidarSearch
+  -VidarCharacterSearch- No longer controls output of ActiveChars.txt
+
+[2005/09/03][Rev 16] Tsusai - I forgot to implement a certain GUI change.
+
+[2005/09/03][Rev 15] Tsusai - Notes: Alot of stuff, bug squishing, completion, and GUI customizations.
+ -Status.txt- Updated.
+ -Main- Updated GUI and cconversion calls.
+ -Misc
+  -MakeInventories- Allows caller to specify if this is for storage purposes or not.
+ -REEDAccSave
+  -REEDAccountStorage- Sends storage flag to MakeInventories
+  -REEDAccountSaveBasic- Added GUI flag to convert characters or not.
+ -REEDCastleSave- Finished.
+ -REEDPartySave- Finished.
+ -REEDGuildSave
+  -REEDGuildSaveMembers- Fixed bug from L0ne's report
+  -REEDGuildSaveMisc- Sends storage flag to MakeInventories
+ -VidarLoad- Finished castle and party loaders.
+
+[2005/08/30][Rev 14] Tsusai - SVN files repaired. Now organized for future REED -> vData conversions.
+
+[2005/08/30][Rev 9-13 BROKEN!] Tsusai - Notes: Renamed files on svn so I won't get confused when making it
+convert backwards. VidarSave*.pas -> REEDSave*.pas since these are saving in REED.
+
+[2005/08/30][Rev 8] Tsusai - Notes: visual changes, reorganization, and additions.
+ -Status.txt- Updated.
+ -Added: VidarPartySave & VidarCastleSave units.  NON FUNCTIONAL.
+ -Main (Gui)- Updated GUI for future REED to vData conversions.
+ -Main- Reorganized what gets converted first.
+ -All Units- USES reorganization.
+ -madExcept- Changed error handling.
+ -VidarCharaSave
+  -RetrieveSpecialIDs- Added support for writing out party ids to character.txt
+ -VidarGuildSave- Redid procedures so that the saving makes the paths instead of the loading procedure.
+   Removed unnecessary TStringLists.
+ -VidarLoad- Added party and castle loading.
+  -VidarGuildLoad- Updated to reflect code changes in VidarGuildSave.
+ -VidarSearch- Added Castle and Party searching
+  -VidarGuildSearch- Cleaned up.
+
+[2005/08/30][Rev 7] Tsusai - Forgot Changelog.
+
+[2005/08/29][Rev 5] Tsusai - Updated calls to MakeInventories to reflect the idea Chris came up with.
+
+[2005/08/29][Rev 4] Tsusai - Repo Organization done.
+
+[2005/08/29][Rev 1] Tsusai - Initial Import of existing work. See Status.txt

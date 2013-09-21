@@ -1,0 +1,16 @@
+RO Proxy : Client version
+
+TODO:
+  [2006/11/08] Research Sync'ing of things to the VCL (Indy 9 requried this as every connection was a thread).
+
+-Rev 42-
+ [2006/11/08] Tsusai - Converted to Indy 10. 
+
+-Rev 19-
+ [2006/02/17]  Committed
+-
+
+[2006/02/14] List index out of bounds Bug identified, and fixed.  Circle on/off switch added, messages added, cleaned up.
+[2006/02/12?] Beta2 sent to kitsunestarwind.  List index out of bounds noticed.
+[2006/02/11] Stripped down, alpha sent to kitsunestarwind.  Failure.  Minor oversight
+[2006/02/11] Created. Based off Server Beta 2 released at asb (1.18.1.18).

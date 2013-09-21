@@ -1,0 +1,12 @@
+Last Updater : Tsusai
+Last Update Date : Sept 03 2005
+
+Guilds : 100%
+Party : 100%
+Accounts : 100%
+Characters : 100%
+Castles : 100%
+Misc : 0% (Investigating)
+
+DevNotes:
+Storage is set to convert 100 items, waiting on prometheus update to support 300

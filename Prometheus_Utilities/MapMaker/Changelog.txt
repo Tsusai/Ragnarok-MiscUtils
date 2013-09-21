@@ -1,0 +1,26 @@
+Prometheus Map Maker
+
+- Rev 25-
+[2005/12/21] Tsusai - License added to GUI
+-
+
+- Rev 24-
+[2005/12/21] Tsusai - License added, uses cleaned up.
+-
+
+- Rev 23-
+[2005/12/12] Tsusai - Put in code to ignore the FileCtrl unit warning. Unit usage checked and fixed.
+-
+
+- Rev 22-
+[2005/11/01] Tsusai - Updated Icon. Added a version tag to the map outputting, and support for the reader, fixed cloner
+-
+
+- Rev 21-
+[2005/11/01] Tsusai - Added Icon, Added my old Mapviewer program code,
+ Added map header code to every map made.
+-
+
+- Rev 20-
+[2005/11/01] Tsusai - Initial Import
+-

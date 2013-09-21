@@ -1,0 +1,11 @@
+- Rev 20-
+ [2006/02/17] prevented any possible crashing with an empty character server select list. 
+-
+
+- Rev 18-
+ [2006/02/11] Added to OpenSVN as 1.18.2.19
+-
+
+-unknown builds-
+[2006/02/11] Finished? Beta 2 released at asb as 1.0.1.14
+[2006/02/10] Created
